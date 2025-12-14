@@ -1,74 +1,101 @@
 <!-- Banner -->
 <p align="left">
-  <img src="OrcnTester.png" alt="Orçun | Full-Stack SaaS Developer" width="30%">
+  <img src="OrcnTester.png" alt="Orçun Yörük | Software Development Specialist | AI Engineer" width="30%">
 </p>
 
 ---
 
-# 👋 Hi, I'm Orçun! 🚀  
-**Full-Stack SaaS Developer** | Passionate about building scalable web applications and modern SaaS products.
+# 👋 Hi, I'm Orçun! 🚀
+**Software Development Specialist | AI Engineer (Offline LLM, Local Vector DB, RAG)**  
+📍 Eskişehir, Turkey · 🌍 Open to Remote / Relocation
+
+- GitHub: https://github.com/OrcnTester  
+- LinkedIn: https://linkedin.com/in/orcun-yoruk-355b52147  
+- Email: orcnyoruk@gmail.com  
 
 ---
 
-## **🚀 About Me**
+## 🧠 About Me
 
-I'm a developer passionate about **building scalable SaaS platforms** and **modern web applications**.  
-Recently, I built **MatchMade**, a **Next.js + Stripe + Firebase** ticketing platform, where I gained hands-on experience in **full-stack SaaS development**.
+I build **privacy-first, fully offline AI systems** and production-style backend demos.
+My current focus is **Offline LLM inference + custom local vector databases + RAG pipelines**.
 
-💡 I’m currently **open to remote roles** and **freelance projects** where I can contribute to:
-- Building **modern web apps**
-- Integrating **secure payment solutions**
-- Developing **end-to-end SaaS products**
+I enjoy turning “cool architecture” into **repeatable, deployable, CI-friendly** implementations.
 
 ---
 
-## **🎟 Featured Project — MatchMade**
+## ⭐ Featured Project — Offline Local RAG (v1.0)
 
-**MatchMade** — A **ticketing platform** with real-time Firestore updates, secure Stripe payment integration, and an admin dashboard.
+A minimal **fully offline** Retrieval-Augmented Generation system using **local embeddings** and a **local LLM (Ollama)**.
 
-**🔹 Features:**
-- **Frontend** → Next.js • React.js • TypeScript • Tailwind CSS v4
-- **Backend** → Firebase Auth, Firestore, Hosting
-- **Payments** → Stripe Checkout, Webhooks & Payment API
-- **CI/CD** → Automated deployment on **Vercel**
+✅ What it demonstrates:
+- Custom **offline local vector database** (no Pinecone / Weaviate)
+- PDF ingestion → parsing → **chunking** → embeddings
+- **Cosine similarity** retrieval + context-grounded answering
+- Local LLM integration (**LLaMA / Qwen / DeepSeek**) via HTTP (Ollama)
+- **Docker Compose** reproducible local deployment
+- Quick test scripts + health checks
 
-🔗 **[Live Demo](https://matchmade-demo.vercel.app)**  
-📦 **[Source Code](https://github.com/OrcnTester/matchmade-stripe-firebase-demo)**
-
----
-
-## **🛠 Tech Stack & Skills**
-
-| **Category**   | **Technologies** |
-|---------------|-------------------|
-| **Frontend**  | Next.js • React.js • TypeScript • Tailwind CSS |
-| **Backend**   | Spring Boot • REST APIs • PDF Automation |
-| **Database**  | Firebase • Firestore • PostgreSQL |
-| **Payments**  | Stripe Checkout • Webhooks • Payment API |
-| **DevOps**    | Vercel • GitHub Actions • CI/CD • Railway • Heroku |
-| **Other**     | Docker • JUnit • Maven • iText • PDFBox |
+🔗 Repo: https://github.com/OrcnTester/offline-local-rag
 
 ---
 
-## **📌 Current Focus**
-- 🔹 Building **scalable SaaS platforms** with Next.js & Firebase  
-- 🔹 Creating **secure payment flows** with Stripe  
-- 🔹 Designing **REST APIs** & PDF automation for manufacturing  
-- 🔹 Preparing for **Toronto’s tech market** & **remote SaaS opportunities**
+## 🧰 Core Skills
+
+**Programming:** Python, C++  
+**AI / ML:** PyTorch, TensorFlow, OpenCV, YOLO, NLP, LLM  
+**Vector Search:** Local Vector DB, Embeddings, Cosine Similarity, Retrieval Optimization  
+**MLOps:** Docker, Kubernetes, MLflow, Weights & Biases  
+**Concepts:** RAG, Offline Inference, Model Optimization, Data Preprocessing, Chunking Strategies  
 
 ---
 
-## **📫 Let's Connect!**
+## 🧩 Selected Projects
 
-- 💼 [**LinkedIn**](www.linkedin.com/in/orcun-yoruk-355b52147)  
-- 💻 [**GitHub**](https://github.com/OrcnTester)  
-- 📧 **orcnyoruk@gmail.com**
+### 🧾 Order Events — Spring Boot + Kafka (CI Ready)
+Production-style Order microservice demo:
+REST → validation → Kafka event publish/consume, with CI and tests.
+- Unit tests (JUnit/Mockito) + Integration tests (Testcontainers Kafka)
+- GitHub Actions CI + Docker + basic K8s structure
+
+🔗 https://github.com/OrcnTester/order-events-spring-kafka
 
 ---
 
-## **✨ Fun Side Projects**
-- 🎵 **AI Music Generator** → Auto-generates demo tracks using **gTTS + pydub**  
-- 📐 **PDF Automation** → Automating order forms & workflows for **Esdoor**  
-- 🎮 **RS36S Modding** → Porting indie games & optimizing performance
+### 💳 MatchMade — Stripe × Firebase Demo
+Minimal Next.js demo for **Stripe Checkout + verified webhook → Firestore write**.
+- Webhook signature verification
+- **Idempotent** persistence (session.id as doc key)
+- Local testing via Stripe CLI
+
+🔗 https://github.com/OrcnTester/matchmade-stripe-firebase-demo  
+🌐 Live: https://matchmade-demo.vercel.app
+
+---
+
+### 🤖 Toronto JobBot (v1 → M2)
+Automation pipeline for job discovery + follow-ups:
+- Fetch real postings from **Greenhouse + Lever**
+- Generate cover letters, log to CSV
+- Follow-up after N days with safety controls (business hours, cooldowns)
+
+🔗 https://github.com/OrcnTester/toronto-jobbot-v1
+
+---
+
+## 🎓 Education
+
+- **Bachelor’s Degree** — Management Information Systems (Anadolu University, Turkey)  
+- **Associate Degree** — Computer Programming (Istanbul Aydin University, Turkey)  
+
+---
+
+## 📫 Contact
+
+If you're hiring for **AI Engineer / Software Development Specialist** roles (Offline LLM, Vector Search, RAG)  
+or need a reliable engineer for a focused build:
+
+- LinkedIn: https://linkedin.com/in/orcun-yoruk-355b52147  
+- Email: orcnyoruk@gmail.com  
 
 ---
